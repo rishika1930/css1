@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS HandsOn 2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: purple;
+        }
+        .parent{
+    display: block;
+    unicode-bidi: isolate;
+        }
+         .circle{
+            width:400px;
+            height:300px;
+            border:10px solid grey;
+            background-color: aqua;
+            border-radius:50%;
+            position: relative;
+            top:300px;
+            right:300px;
+            display:inline-block;
+            
+            
+        }
+        .info{
+            text-align: center;
+            transform: translate-x(-20%);
+            font-size:25px;
+            font-weight:bold;
+            text-decoration:underline;
+            align-items:center;
+            justify-content:center;
+            padding: 100px 15px  5px 5px;
+            
+        }
+    </style>
+</head>
+<body style="border:5px solid green">
+    <div class="parent">
+    <div style="margin: 1px;">
+        <div >
+            <p class="para italic inline-para" id="first">Welcome to Dhab.........  
+                You get quality of..........
+            </p> 
+        </div>
+        <div>
+            <p class="para italic inline-para" id="second">Home Menu review contact us</p>
+        </div>
+        <div>
+            <p class="para italic inline-para" id="third">Email:Store@gmail.com if you find any complaint contact on-94566**</p>
+        </div>
+    </div>
+    <div id="my-circle">
+       <div>
+           
+            <div class="circle info italic">
+            <p style="padding:1px 40px 20px 50px;">EXICITING OFFER</p><hr>
+            <p style="padding:30px 10px 20px 5px;">**GET OUT SPECIAL THALI FOR ONLY RS-100 ONLY ON MONDAY</p><hr>
+            <p style="padding: 30px 10px 10px 5px;">PLZ RATE US OUT OF 5</p></div>
+        </div>
+        </div>
+               <div id="form">
+        <h1 style="color:lightpink;">PLEASE REGISTER HERE</h1><hr>
+        <form action="">
+            <span style="color: red; font-size: 20px;"> First Name :</span> <br>
+            <input type="text" placeholder="enter your name " id="name" value="" name="name" ><br> <br>
+            <span style="color: red; font-size: 20px;">Last Name:</span> <br>
+            <input type="text" placeholder="enter your last name" id="name" value="" name="name"><br><br>
+            <span style="color: red; font-size: 20px;">Enter Your Age :</span> <br>
+            <input type="number" placeholder="age" ><br>
+            <span style="color: red; font-size: 20px;">Email :</span> <br>
+            <input type="text" placeholder=" myemail" id="email" name="email" required> <br>  <br>  
+            <span style="color: red; font-size: 20px;">Date of birth: </span><br>
+            <input type="date" value="date"><br><br>
+            <span style="color: red; font-size: 20px;">Are You More than One Person? </span><br>
+            <input type="checkbox"name=""> <br> <br>
+            <span style="color: red; font-size: 20px;"> Do You have cough or cold?</span><br><br>
+            <input type="checkbox"name=""> <br> <br>
+            <span style="color: red; font-size: 20px;">Click here:</span> <br>
+            <input type="submit" value="submit here"> <br><br>
+            <span style="color: red; font-size: 20px;">Reset:</span> <br>
+            <input type="reset" value="Reset"> <br>
+        </form>
+    </div>
+    <div id="menu">
+        <div>
+            <p  class= "para italic"id="para4">MENU</p>
+        </div>
+    </div>
+    <hr style="margin-top:40px ;">
+    <div class="container">
+        <div class="box">
+            <h1 style="padding:10px; text-align:center;color: purple; ">Dosa</h1><hr>
+           <img src="dosa.jfif" alt="">
+        </div>
+        <div class="box">
+            <h1 style="padding:10px; text-align:center ;color: purple;">Noodles</h1><hr>
+           <img src="noodles.jfif" alt="" height="250px" width="250px">
+        </div>
+        <div class="box">
+            <h1 style="padding:10px; text-align:center ;color: purple;">Pakoda</h1><hr>
+            <img src="pakoda.jfif" alt="" width="300px">
+        </div>
+        <div class="box">
+            <h1 style="padding:10px; text-align:center ;color: purple;">Pasta</h1><hr>
+           <img src="pasta.jfif" alt="" height="200px">
+
+        </div>
+        <div class="box">
+            <h1 style="padding:10px; text-align:center ;color: purple;">Golgappe</h1><hr>
+           <img src="golgappe.jfif" alt="" height="200px">
+        </div>
+        <div class="box">
+            <h1 style="padding:10px; text-align:center ;color: purple;">Paratha</h1><hr>
+            <img src="paratha.jfif" alt="" height="190px">
+        </div>
+
+
+    </div>
+    </div>
+    
+</body>
+</html>

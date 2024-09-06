@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtG4oA1U4IbBNacJ6KCUYB83xgE2bl66NMcw&usqp=CAU);
+    background-size: cover;
+    height:3000px;
+}
+.para{
+  
+    font-size:30px;
+    color:white;
+    border: 5px solid red;
+    background-color: black;
+    border-radius: 20px;
+}
+#first{
+    width: 24%;
+    float:left;
+    margin:30px;
+    padding:20px 2px 60px 10px;
+    border-radius:30px;
+}
+#second{
+    border-radius:40px;
+    padding: 35px 30px 10px 30px;
+    /* float:left; */
+    position: relative;
+    top:80px;
+    right:170px;
+    bottom:150px;
+
+}
+#third{
+    width:24%;
+    float: right;
+    padding:1px 50px 5px 50px;
+    margin:10px;
+    
+
+}
+#para4{
+   width:400px; 
+   padding:20px 20px 20px 20px;
+   border-radius:50px;
+   text-align: center;
+   margin-bottom:0px;
+}
+.inline-para{
+    display:inline;
+}
+#form{
+    text-align: center;
+    margin:10px;
+    display: inline-block;
+    border: 10px dashed red;
+    background-color: white;
+    padding:5px;
+    /* float: right; */
+}
+.italic{
+    font-style: italic;
+    font-weight:bold;
+
+}
+.box{
+    width: 350px;;
+    height:300px;
+    background-color: aqua;
+    margin:2
+    border-radius: 50px 0px;
+    box-sizing : border-box;
+    border: 5px solid green;
+    font-size: 20px;
+    
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top:5rem;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:25px;
+    
+}
+
+.class p{
+    padding:10px;
+    margin:10px;
+    display:block;
+}
+#my-circle{
+    float:left;
+}
+#para3 {
+    width: 24%;
+    float: right;
+    padding: 1px 50px 5px 50px;
+    margin: 10px;
+}
+.italic {
+    font-style: italic;
+    font-weight: bold;
+}
+.inline-para {
+    display: inline;
+}
+.my-para1 {
+    font-size: 30px;
+    color: white;
+    border: 5px solid red;
+    background-color: black;
+    border-radius: 20px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
